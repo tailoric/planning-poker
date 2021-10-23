@@ -1,0 +1,20 @@
+{
+  "name": "planningpoker",
+  "version": "0.1.0",
+  "description": "a small personal project for learning websockets and having a no strings attached online version of planning poker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "planning poker",
+    "scrum",
+    "socket"
+  ],
+  "author": "Eric Schneider (tailoric)",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.3.1"
+  }
+}
