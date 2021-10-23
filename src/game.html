@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io();
+            socket.on('welcome', function(msg){
+              console.log(msg);
+            });
+        </script>
+    </head>
+    <h1>GAME ROOM</h1>
+</html>
